@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-right: 10px;
+}
+.grif {
+	display: inline-block;
+	margin: 1rem 1rem ;
+}
+#tune{
+	/*display: none;*/
+}
+.string, .marks {
+	margin-bottom: 1px;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.string {
+	background: yellow;;
+	color: #444;
+}
+.marks {
+	/*background: red;*/
+	/*height:10px;*/
+}
+
+.stop, .mark-stop {
+	min-width: 21px;
+	width: 40px;
+	display: flex;
+	margin-left: 1px;
+	justify-content: center;
+}
+
+.stop {
+	background: black;
+	color: #000;
+}
+
+.stop:first-child{
+	background: gray;
+}
+
+.mark-stop {
+	font-size: .7rem;
+}
+
+.elements-control {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.element {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: row;
+
+}
+.element:last-child {
+	display: none;
+}
